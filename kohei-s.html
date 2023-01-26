@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>kohei.S式指名セレクター</title>
+    <link rel="stylesheet" type="text/css" href="kohei-s.css">
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <div id="margin"><a href="index.html">＜＜ 戻る</a></div>
+    <div id="margin"><h2 style="margin: 0px;">Kohei.S式指名セレクター</h2></div>
+    <div>
+        <div style="display: inline;">クラス人数: </div>
+        <input id="member" value="42" type="number">
+    </div>
+    <div>
+        <div style="display: inline;">現在の指名No: </div>
+        <input id="input" type="number">
+    </div>
+    <div>
+        <button onclick='writeValue()'>計算</button>
+    </div>
+    <div>
+        <button onclick="thenNext()">その次を計算</button>
+    </div>
+    <br>
+    <div>
+        <span>次の指名No: </span>
+        <span id="result" class="result"></span>
+    </div>
+    <div>
+        <span>その次の指名No: </span>
+        <span id="result-2" class="result"></span>
+    </div>
+    
+    <script src="script/kohei-s.js"></script>
+</body>
